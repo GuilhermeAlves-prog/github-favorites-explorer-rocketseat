@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Github Favorites</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Github Favorites</h1>
+      <div class="search">
+        <label  class="sr-only" for="input-search">Usuário do Github</label>
+        <input  id="input-search" type="text" placeholder="Usuário do Github">
+        <button>&plus;</button>
+      </div>
+    </header>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Usuário</th>
+          <th>Repositório</th>
+          <th>Seguidores</th>
+          <th></th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td class="user">
+            <img src="https://github.com/GuilhermeAlves-prog.png" alt="Imagem de Guilherme Alves">
+            <a href="https://github.com/GuilhermeAlves-prog" target="_blank">
+              <p>Mayk Brito</p>
+              <span>maykbrito</span>
+            </a>
+          </td>
+          <td class="repositoris">
+            76
+          </td>
+          <td class="followers">
+            9500
+          </td>
+          <td>
+            <button class="remove">&times;</button>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="user">
+            <img src="https://github.com/GuilhermeAlves-prog.png" alt="Imagem de Guilherme Alves">
+            <a href="https://github.com/GuilhermeAlves-prog" target="_blank">
+              <p>Guilherme Alves</p>
+              <span>GuilhermeAlves-prog</span>
+            </a>
+          </td>
+          <td class="repositoris">
+            76
+          </td>
+          <td class="followers">
+            9500
+          </td>
+          <td>
+            <button class="remove">&times;</button>
+          </td>
+          
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
