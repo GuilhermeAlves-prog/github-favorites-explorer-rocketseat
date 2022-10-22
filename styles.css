@@ -76,7 +76,7 @@ header h1 {
   padding: 0 1rem;
 }
 
-.search button:hover{
+.search button:hover {
   filter: brightness(1.1);
 }
 
