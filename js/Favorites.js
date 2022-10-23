@@ -134,19 +134,18 @@ export class FavoritesView extends Favorites {
         
         tr.innerHTML = `
             <td class="user">
-                <img src="https://github.com/madalena-rocha.png" alt="Imagem de madalena-rocha">
-                <a href="https://github.com/madalena-rocha" target="_blank">
-                    <p>Madalena Rocha</p>
-                    <span>madalena-rocha</span>
+                <img src="https://github.com/guialvess.png" alt="Imagem de guilherme Alves">
+                <a href="https://github.com/guialvess" target="_blank">
+                    <p>Guilherme Alves</p>
+                    <span>guialvess</span>
                 </a>
             </td>
-            <td class="repositories">37</td>
-            <td class="followers">277</td>
+            <td class="repositories">20</td>
+            <td class="followers">18</td>
             <td>
                 <button class="remove">&times;</button>
             </td>
         `
-
         return tr
     }
 
